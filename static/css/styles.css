@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.accent {
+    color: #20d9ff;
+}
+/* HERO */
+
+div.hero-body h1.title.is-1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+}
+
+div.hero-body h1.title.is-6 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+div.hero-body p {
+    line-height: 2;
+}
+
+a.hero-btn {
+    background: #20d9ff;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: .3s;
+    border: 1px solid #20d9ff;
+}
+
+a.hero-btn:hover {
+    transition: .3s;
+    background:transparent;
+    border: 1px solid #20d9ff;
+    color: #000000;
+}
