@@ -1,15 +1,54 @@
+@font-face {
+    font-family: moon;
+    src: url("/fonts/MoonTime-Regular.otf");
+}
+
+.title.moon {
+    font-family: moon;
+    font-size: 8em;
+    font-weight: 100;
+}
+
+.has-text-weight-feather {
+    font-weight: 200;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+body p {
+    line-height: 1.8;
+    color: #3a3a3a;
+    font-size: 14px;
+}
+
+div.container-tight {
+    max-width: 960px;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.primary-btn {
+    background: #f5a8cd;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 50px;;
+}
+
 .accent {
-    color: #20d9ff;
+    color: #000;
 }
 /* HERO */
 
 div.hero-body h1.title.is-1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
+    
 }
 
 div.hero-body h1.title.is-6 {
@@ -22,17 +61,73 @@ div.hero-body p {
 }
 
 a.hero-btn {
-    background: #20d9ff;
+    background: #f5a8cd;
     color: #fff;
     padding: 20px 30px;
     border-radius: 50px;
     transition: .3s;
-    border: 1px solid #20d9ff;
+    border: 1px solid #f8cfe3;
 }
 
 a.hero-btn:hover {
     transition: .3s;
     background:transparent;
-    border: 1px solid #20d9ff;
+    border: 1px solid #000;
     color: #000000;
 }
+
+/* SHOP HOME FEATURED */
+
+div.bg-color {
+    background:#fff5fa;
+    width: 100%;
+    height:800px;
+    position: absolute;
+    margin-top: -250px;
+    z-index: -1;
+}
+
+div.home-shop img {
+    box-shadow: 3px 7px 20px 0px #b795a5;
+}
+
+/* HOME BANNER */
+
+div.banner h2.title {
+    background: rgba(255, 255, 255, 0.603);
+    transition: .3s;
+    padding: 20px;
+}
+
+div.banner div.border {
+    border: 1px solid #fff;
+    padding:10px;
+}
+
+div.banner a:hover h2.title{
+    background: white;
+    transition: .3s;
+}
+
+/* HERO FOOTER */
+
+.border-left h5 {
+    border-left: 3px solid #f5a8cd;
+}
+
+div.line {
+    width: 1px;
+    height: 100px;
+    background: #f5a8cd;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+
+/* FOOTER */
+
+footer.footer .subtitle {
+    font-family: "Playfair Display", serif;
+}
+
