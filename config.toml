@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = ""
+summaryLength = 10
 languageCode = "en-us"
 [[menu.footer]]
 name = "Home"

@@ -9,6 +9,12 @@
     font-weight: 100;
 }
 
+.subtitle.moon {
+    font-family: moon;
+    font-size: 6em;
+    font-weight: 100;
+}
+
 .has-text-weight-feather {
     font-weight: 200;
 }
@@ -74,6 +80,18 @@ a.hero-btn:hover {
     background:transparent;
     border: 1px solid #000;
     color: #000000;
+}
+
+/* VIDEO GRID */
+
+div.card-image img {
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+div.card {
+    height: 100%;
 }
 
 /* SHOP HOME FEATURED */

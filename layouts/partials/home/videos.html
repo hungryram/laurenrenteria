@@ -1,0 +1,16 @@
+<div class="section">
+    <div class="container">
+        <div class="columns mb-0">
+            <div class="column is-half is-offset-one-quarter pb-0">
+                <h2 class="title is-4 has-text-centered">Dance</h2>
+                <h1 class="subtitle is-4 moon has-text-centered pl-6">Tutorials</h1>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="responsive-slide">
+            {{ range first 4 (where $.Site.RegularPages "Type" "videos") }}
+            {{ partial "templates/video-grid" . }}
+            {{ end }}
+        </div>
+    </div>
+</div>
