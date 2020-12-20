@@ -5,5 +5,18 @@ name = "Home"
 url = "/"
 weight = 1
 [[menu.main]]
+name = "Shop"
+weight = 5
+[[menu.main]]
+name = "Tutorials"
+weight = 4
+[[menu.main]]
+name = "Videos"
+weight = 3
+[[menu.main]]
+name = "About"
+weight = 2
+[[menu.main]]
 name = "Home"
 url = "/"
+weight = 1
