@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: youtube_id
+  type: text
+  config:
+    required: false
+  label: Youtube Video ID
 - name: categories
   type: tag_list
   default: []
