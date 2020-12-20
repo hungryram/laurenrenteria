@@ -1,4 +1,25 @@
 ---
 label: Videos
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+- name: tags
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tags
