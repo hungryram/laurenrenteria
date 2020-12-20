@@ -14,6 +14,8 @@ sections:
   label: Videos
   create: documents
   match: "**/*"
+  templates:
+  - videos
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
