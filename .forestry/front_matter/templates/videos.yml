@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: cover
+  type: file
+  config:
+    maxSize: 1
+  label: Photo Cover
 - name: youtube_id
   type: text
   config:
