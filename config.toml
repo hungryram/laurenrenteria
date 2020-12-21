@@ -1,10 +1,6 @@
-baseURL = ""
+baseURL = "https://laurenrenteria.netlify.app/"
 summaryLength = 10
 languageCode = "en-us"
-[[menu.footer]]
-name = "Home"
-url = "/"
-weight = 1
 [[menu.main]]
 name = "Shop"
 weight = 5
