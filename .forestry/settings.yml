@@ -23,6 +23,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - title-and-body
   - videos
 - type: directory
   path: content/shop
@@ -30,6 +31,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - title-and-body
   - products
 upload_dir: lauren-renteria/lauren-renteria
 public_path: https://res.cloudinary.com/hungryram19/image/upload
