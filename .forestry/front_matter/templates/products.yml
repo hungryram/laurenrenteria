@@ -21,16 +21,15 @@ fields:
     min: 
     max: 
     step: 
-- name: percentage_off
+- name: sale_price
   type: number
-  label: Percentage Off
+  label: Sale Price
   default: 0
   required: true
   config:
     min: 
     max: 
     step: 
-  description: Mark your item on sale by adding percentage off
 - name: collections
   type: tag_list
   default: []
