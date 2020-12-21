@@ -9,6 +9,11 @@ sku = "004"
 title = "XOXO Ladies Bella Canvas Triblend T-Shirt"
 [variants]
 sizes = ["XS", "S", "M"]
+[[customOptions]]
+name = "Sizes"
+options = ["M", "S", "XS"]
+required = true
+template = "simple-dropdown-option"
 
 +++
 **The perfect t-shirt for summer!**
