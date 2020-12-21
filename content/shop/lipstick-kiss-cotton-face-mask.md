@@ -1,7 +1,7 @@
 +++
 collections = ["Masks"]
 percentage_off = "20"
-photos = ["/uploads/img_2349_590x.jpg", "/uploads/img_2347_590x.jpg", "/uploads/img_2346_590x.jpg"]
+photos = ["https://res.cloudinary.com/hungryram19/image/upload/v1608531443/lauren-renteria/lauren-renteria/IMG_2349_590x_amv4b4.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608531443/lauren-renteria/lauren-renteria/IMG_2347_590x_mpddlb.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608531443/lauren-renteria/lauren-renteria/IMG_2346_590x_yqmchl.jpg"]
 price = 12.99
 sale_price = 9.75
 sku = "01"
