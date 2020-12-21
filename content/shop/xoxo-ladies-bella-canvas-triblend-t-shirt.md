@@ -7,6 +7,8 @@ sale_price = 14.99
 show_size_chart = true
 sku = "004"
 title = "XOXO Ladies Bella Canvas Triblend T-Shirt"
+[variants]
+sizes = ["XS", "S", "M"]
 
 +++
 **The perfect t-shirt for summer!**
