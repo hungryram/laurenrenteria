@@ -38,5 +38,8 @@ fields:
   type: image_gallery
   config: {}
   label: Photos
+- name: show_size_chart
+  type: boolean
+  label: Show Size Chart
 pages:
 - content/shop/lipstick-kiss-cotton-face-mask.md
