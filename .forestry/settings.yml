@@ -16,6 +16,11 @@ sections:
   match: "**/*"
   templates:
   - videos
+- type: directory
+  path: content/shop
+  label: Products
+  create: documents
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
