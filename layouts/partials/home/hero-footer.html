@@ -1,8 +1,9 @@
+{{ $slogan := .Site.Data.homelayout.slogan }}
 <div class="section">
     <div class="container pt-6">
         <div class="columns">
-            <div class="column has-text-centered">
-                <h5 class="subtitle is-3 is-italic has-text-weight-feather">Live everyday with grace, unconditional love, and<br> your natural beauty. XOXO!</h5>
+            <div class="column has-text-centered is-three-fifths is-offset-one-fifth">
+                <h5 class="subtitle is-3 is-italic has-text-weight-feather">{{ $slogan.slogan }}</h5>
             </div>
         </div>
     </div>

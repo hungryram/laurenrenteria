@@ -1,28 +1,31 @@
-    <div class="container is-fluid">
+{{$featuredOne := .Site.Data.homelayout.featured_blocks.featured_one }}
+{{$featuredTwo := .Site.Data.homelayout.featured_blocks.featured_two }}
+{{$featuredThree := .Site.Data.homelayout.featured_blocks.featured_three }}
+<div class="container is-fluid">
         <div class="columns is-variable is-4 banner">
             <div class="column">
-                <a href="">
-                    <div style="background:url(uploads/feet.jpg) no-repeat center;background-size:cover;padding: 200px 70px">
+                <a href="{{ $featuredOne.link }}">
+                    <div style="background:url({{ $featuredOne.image }}) no-repeat center;background-size:cover;padding: 200px 70px">
                         <div class="border">
-                            <h2 class="title is-5 has-text-centered has-text-black">Videos</h2>
+                            <h2 class="title is-5 has-text-centered has-text-black">{{ $featuredOne.heading }}</h2>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="column">
-                <a href="">
-                    <div style="background:url(uploads/shoes.jpg) no-repeat center;background-size:cover;padding: 200px 70px">
+                <a href="{{ $featuredTwo.link }}">
+                    <div style="background:url({{ $featuredTwo.image }}) no-repeat center;background-size:cover;padding: 200px 70px">
                         <div class="border">
-                            <h2 class="title is-5 has-text-centered has-text-black">Tutorials</h2>
+                            <h2 class="title is-5 has-text-centered has-text-black">{{ $featuredTwo.heading }}</h2>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="column">
-                <a href="">
-                    <div style="background:url(uploads/IMG-9557.JPG) no-repeat center;background-size:cover;padding: 200px 70px">
+                <a href="{{ $featuredThree.link }}">
+                    <div style="background:url({{ $featuredThree.image }}) no-repeat center;background-size:cover;padding: 200px 70px">
                         <div class="border">
-                            <h2 class="title is-5 has-text-centered has-text-black">Shop</h2>
+                            <h2 class="title is-5 has-text-centered has-text-black">{{ $featuredThree.heading }}</h2>
                         </div>
                     </div>
                 </a>

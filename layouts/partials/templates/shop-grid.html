@@ -1,19 +1,19 @@
 {{ $salePrice := .Params.sale_price }}
 {{ $listPrice := .Params.price }}
 <a href="{{ .Permalink }}">
-    <div class="mb-5 ml-2 mr-2">
+    <div class="mb-5 ml-2 mr-2 shop-grid">
         <div class="card-image">
             <img src="{{ index .Params.photos 0 }}" alt="{{ .Title }}" style="border-radius: 10px;">
-            <p class="marker">new</p>
+            {{ if .Params.marker }}<p class="marker">new</p>{{ end }}
         </div>
-        <div class="pt-5">
-          <div class="content has-text-left">
+        <div class="pt-4 pb-4">
+          <div class="content has-text-left ml-4">
             <p class="title is-6 has-text-weight-strong">{{ .Title }}</p>
             {{ if $salePrice }}
-                <p class="strike is-inline">{{ $listPrice }}</p>
-                <p class="accent is-inline ml-3"><strong>{{ $salePrice }}</strong></p>
+                <p class="strike is-inline">${{ $listPrice }}</p>
+                <p class="accent is-inline ml-3"><strong class="has-text-weight-medium">${{ $salePrice }}</strong></p>
                   {{ else }}
-            <p class="accent">{{ $listPrice }}</p>
+            <p class="accent">${{ $listPrice }}</p>
             {{ end }}
           </div>
         </div>

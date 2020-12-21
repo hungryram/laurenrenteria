@@ -54,6 +54,30 @@ a.primary-btn {
     border-radius: 50px;;
 }
 
+button.primary-btn {
+    background: #f5a8cd;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #f5a8cd;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button.primary-btn:hover {
+    background: transparent;
+    transition: .3s;
+    color: #000;
+}
+
+input.input,
+textarea.textarea {
+    border-radius: 0;
+}
+
+div.content a {
+    color: #f5a8cd;
+}
+
 .accent {
     color: #000;
 }
@@ -88,6 +112,65 @@ a.hero-btn:hover {
     background:transparent;
     border: 1px solid #000;
     color: #000000;
+}
+
+/* CATEGORIES */
+
+ul.categories li a {
+    background: #f5a8cd;
+    padding: 4px 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* NAVBAR */
+
+.hero-head {
+    border-bottom: 1px solid rgb(213 213 213 / 20%);
+}
+
+a.navbar-item {
+    transition: .3s;
+}
+
+.navbar-item::after {
+    transition: .3s;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #f5a8cd;
+  }
+
+.navbar-item::after {
+    width: 75%;
+    bottom: 15px;
+    opacity: 0;
+}
+  
+.navbar-item:hover::after {
+    bottom: 10px;
+    opacity: 1;
+}
+
+a.navbar-item:hover {
+    transition: .3s;
+    color: #f5a8cd;
+}
+
+.navbar-item-shop {
+    align-items: center;
+    display: flex;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.navbar-item-shop span {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
 }
 
 /* VIDEO GRID */
@@ -199,6 +282,25 @@ div.add__to__cart button:hover {
     transition: .3s;
 }
 
+div.shop-grid {
+    transition: .3s;
+    border-radius: 10px;
+}
+
+div.shop-grid:hover {
+    box-shadow: 0px 4px 20px rgb(235, 235, 235);
+    transition: .3s;
+}
+
+div.shop-grid img {
+    transition: .3s;
+}
+
+div.shop-grid:hover img {
+    opacity: .9;
+    transition: .3s;
+}
+
 /* FOOTER */
 
 footer.footer .subtitle {
@@ -209,3 +311,9 @@ footer.footer {
     background: #FFF5FA;
 }
 
+/* SNIPCART */
+
+.snipcart-modal__container.snipcart-cart-summary--edit.snipcart-cart-summary-side,
+.snipcart-modal__container.snipcart-layout--large {
+    z-index: 100;
+}

@@ -1,10 +1,34 @@
-<footer class="footer pb-6">
+{{ $footer := .Site.Data.profile }}
+{{ $footerSocial := .Site.Data.profile.social_media }}
+<footer class="footer pb-0">
     <div class="section">
         <div class="container">
             <div class="columns">
+                <div class="column has-text-centered">
+                    <h1 class="subtitle is-3 has-text-centered">{{ $footer.company_name }}</h1>
+                    <ul>
+                        {{ if $footerSocial.facebook }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.facebook }}" target="_blank" class="has-text-black">Facebook</a></li>{{ end }}
+                        {{ if $footerSocial.instagram }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.instagram }}" target="_blank" class="has-text-black">Instagram</a></li>{{ end }}
+                        {{ if $footerSocial.twitter }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.twitter }}" target="_blank" class="has-text-black">Twitter</a></li>{{ end }}
+                        {{ if $footerSocial.pinterest }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.pinterest }}" target="_blank" class="has-text-black">Pinterest</a></li>{{ end }}
+                        {{ if $footerSocial.youtube }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.youtube }}" target="_blank" class="has-text-black">Youtube</a></li>{{ end }}
+                        {{ if $footerSocial.linkedin }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.linkedin }}" target="_blank" class="has-text-black">Linkedin</a></li>{{ end }}
+                        {{ if $footerSocial.yelp }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.yelp }}" target="_blank" class="has-text-black">Yelp</a></li>{{ end }}
+                        {{ if $footerSocial.tiktok }}<li class="is-inline mr-4 is-size-7"><a href="{{ $footerSocial.tiktok }}" target="_blank" class="has-text-black">TikTok</a></li>{{ end }}
+
+                      </ul>
+                </div>
+            </div>
+            <div class="columns">
                 <div class="column">
-                    <h1 class="subtitle is-5 has-text-centered">Follow me on Instagram</h1>
-                    <h5 class="title is-6 has-text-weight-normal has-text-centered mt-4">@laurennrenteria</h5>
+                    <p class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7 has-text-black">Website Developed by Hungry Ram</a></p><br>
+                </div>
+                <div class="column has-text-right-desktop">
+                    <ul>
+                        {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+                        <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2 has-text-black">{{ .Title }}</a></li>
+                        {{ end }}
+                      </ul>
                 </div>
             </div>
         </div>

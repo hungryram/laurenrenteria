@@ -1,5 +1,5 @@
 <div class="hero-head">
-    <div class="container is-fluid">
+    <div class="container pt-4">
         <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
               <a class="navbar-item" href="{{ .Site.BaseURL }}">
@@ -45,13 +45,14 @@
               </div>
           
               <div class="navbar-end">
-                <div class="navbar-item">
+                <div class="navbar-item-shop">
                   <div class="buttons">
-                    <a class="mr-3">
-                      <img src="/assets/user.svg" alt="">
+                    <a class="mr-3 snipcart-customer-signin">
+                      <img src="/assets/user.svg" alt="" width="25">
                     </a>
-                    <a class="">
-                      <img src="/assets/shopping-bag.svg" alt="">
+                    <a class="snipcart-checkout">
+                      <img src="/assets/shopping-bag.svg" alt="" width="25">
+                      <span class="snipcart-items-count"></span>
                     </a>
                   </div>
                 </div>

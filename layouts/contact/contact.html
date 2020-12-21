@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="column is-half is-offset-one-quarter">
+            <h1 class="title is-4">Send me a message</h1>
+            <p class="mb-5">I will get back to you as soon as I can!</p>
+            <form name="Home Widget Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                <input name="bot-field" type="hidden"/>
+  
+                <div class="field">
+                  <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="First Name" name="first name">
+                  </p>
+                </div>
+  
+                <div class="field">
+                  <p class="control">
+                    <input class="input" type="text" placeholder="Last Name" name="last name">
+                  </p>
+                </div>
+                
+                <div class="field">
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Phone" name="phone">
+                  </div>
+                </div>
+      
+                <div class="field">
+                  <div class="control">
+                    <input class="input" type="email" placeholder="Email" name="email address">
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Your Message" name="message"></textarea>
+                  </div>
+                </div>
+
+                <div class="control">
+                  <button class="primary-btn" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }};width:305px">Submit</button>
+                </div>
+                <div class="field mt-5">
+                  <div class="control content">
+                    <label class="checkbox">
+                      <input type="checkbox" required>
+                      <span class="is-size-7">By submitting this form you confirm you have read and agreed to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy.</a> You consent to having this website store the submitted information so we can respond to the inquiry. Don't worry, you can request to have your information removed anytime.</span>
+                    </label>
+                  </div>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>
+{{ end }}
