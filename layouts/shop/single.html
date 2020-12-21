@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $salePrice := .Params.sale_price }}
+{{ $listPrice := .Params.price }}
+<div class="section">
+    <div class="container">
+        <div class="columns is-variable is-8">
+            <div class="column is-7">
+                <div class="product-slide">
+                    {{ range .Params.photos }}
+                    <img src="{{ . }}" alt="" style="width:100%;height:500px;object-fit:cover">
+                    {{ end }}
+                </div>
+            </div>
+            <div class="column">
+                <h1 class="title is-3">{{ .Title }}</h1>
+                {{ if $salePrice }}
+                <p class="title is-4 strike is-inline has-text-weight-normal">{{ $listPrice }}</p>
+                <p class="accent title is-4 is-inline ml-3 has-text-weight-normal"><strong class="has-text-weight-normal">{{ $salePrice }}</strong></p>
+                  {{ else }}
+                <p class="accent title is-4 is-inline">{{ $listPrice }}</p>
+                {{ end }}
+                <div class="content mt-6 product__description">
+                    {{ .Content }}
+                </div>
+                <div class="add__to__cart">
+                    <button class="snipcart-add-item"
+                        data-item-id="{{ .Params.sku }}"
+                        data-item-price="{{ if $salePrice }}{{ $salePrice }}{{ else }}{{ $listPrice }}{{ end }}"
+                        data-item-url="{{ .Permalink }}"
+                        data-item-description="{{ .Summary }}"
+                        data-item-image="{{ index .Params.photos 0 }}"
+                        data-item-name="{{ .Title }}">
+                        Add to bag
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

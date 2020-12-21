@@ -9,6 +9,14 @@
     font-weight: 100;
 }
 
+.accent strong {
+    color:#f5a8cd;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
 .subtitle.moon {
     font-family: moon;
     font-size: 6em;
@@ -127,12 +135,6 @@ div.banner a:hover h2.title{
     transition: .3s;
 }
 
-/* HERO FOOTER */
-
-.border-left h5 {
-    border-left: 3px solid #f5a8cd;
-}
-
 div.line {
     width: 1px;
     height: 100px;
@@ -142,10 +144,55 @@ div.line {
     top: 50px;
 }
 
+/* PRODUCTS */
+
+p.marker {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    background: #fff;
+    align-items: center;
+    border-radius: 4px;
+    color: #000;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: .75em;
+    padding-right: .75em;
+    white-space: nowrap;
+}
+
+div.product__description.content strong,
+div.product__description.content {
+    color: #7e7e7e;
+}
+
+div.add__to__cart button {
+    background: black;
+    box-shadow: none;
+    border: 1px solid #000;
+    padding: 15px 100px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+div.add__to__cart button:hover {
+    border: 1px solid #000;
+    background: white;
+    color: #000;
+    transition: .3s;
+}
 
 /* FOOTER */
 
 footer.footer .subtitle {
     font-family: "Playfair Display", serif;
+}
+
+footer.footer {
+    background: #FFF5FA;
 }
 

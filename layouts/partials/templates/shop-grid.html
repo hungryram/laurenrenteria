@@ -1,0 +1,21 @@
+{{ $salePrice := .Params.sale_price }}
+{{ $listPrice := .Params.price }}
+<a href="{{ .Permalink }}">
+    <div class="mb-5 ml-2 mr-2">
+        <div class="card-image">
+            <img src="{{ index .Params.photos 0 }}" alt="{{ .Title }}" style="border-radius: 10px;">
+            <p class="marker">new</p>
+        </div>
+        <div class="pt-5">
+          <div class="content has-text-left">
+            <p class="title is-6 has-text-weight-strong">{{ .Title }}</p>
+            {{ if $salePrice }}
+                <p class="strike is-inline">{{ $listPrice }}</p>
+                <p class="accent is-inline ml-3"><strong>{{ $salePrice }}</strong></p>
+                  {{ else }}
+            <p class="accent">{{ $listPrice }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+</a>

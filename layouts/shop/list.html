@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                {{ range .RegularPages }}
+                    <div class="column is-4">
+                        {{ partial "templates/shop-grid" . }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{ end }}
