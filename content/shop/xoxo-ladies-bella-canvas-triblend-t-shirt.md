@@ -7,8 +7,6 @@ sale_price = 14.99
 show_size_chart = true
 sku = "004"
 title = "XOXO Ladies Bella Canvas Triblend T-Shirt"
-[variants]
-sizes = ["XS", "S", "M"]
 [[customOptions]]
 name = "Sizes"
 options = ["M", "S", "XS"]

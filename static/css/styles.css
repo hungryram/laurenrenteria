@@ -306,10 +306,11 @@ div.product__description.content {
 }
 
 div.add__to__cart button {
-    background: black;
+    background: #f5a8cd;
     box-shadow: none;
-    border: 1px solid #000;
-    padding: 15px 100px;
+    border: 1px solid #f5a8cd;
+    width: 100%;
+    padding: 20px;
     color: #fff;
     transition: .3s;
     cursor: pointer;
@@ -363,4 +364,20 @@ footer.footer {
 .snipcart-modal__container.snipcart-layout--large,
 .snipcart-modal__container {
     z-index: 100;
+}
+
+button.snipcart-cart-button--highlight,
+.snipcart__box--badge-highlight {
+    background: #f5a8cd;
+}
+
+.snipcart__icon--blue-light path,
+.snipcart__icon--blue-dark path {
+    fill: #f5a8cd;
+}
+
+.snipcart__actions--link,
+.snipcart-signin__register-link,
+.snipcart-signin__forgot-password {
+    color: #f5a8cd;
 }
