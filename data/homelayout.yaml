@@ -1,0 +1,26 @@
+---
+introduction:
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1608525724/lauren-renteria/lauren-renteria/laurenrenteria_sqrkjl.png
+  heading: Meet
+  main_heading: Lauren
+  body: |-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem labore vel laudantium debitis voluptas dolore, eius quis repellendus libero? Quo illum modi repellendus maiores harum corporis dicta asperiores odit?
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quae officia delectus molestiae alias, cumque nobis error deleniti commodi voluptates explicabo accusamus animi quo eum magnam quaerat nam placeat dolorem!
+  link_text: Contact me
+  link: "/contact"
+slogan:
+  slogan: Live everyday with grace, unconditional love, and your natural beauty. XOXO!
+featured_blocks:
+  featured_one:
+    heading: Videos
+    link: "/videos"
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1608525784/lauren-renteria/lauren-renteria/feet_k1junw.jpg
+  featured_two:
+    heading: Tutorials
+    link: "/tutorials"
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1608525810/lauren-renteria/lauren-renteria/shoes_avfjzy.jpg
+  featured_three:
+    heading: Shop
+    link: "/shop"
+    image: https://res.cloudinary.com/hungryram19/image/upload/v1608525829/lauren-renteria/lauren-renteria/IMG-9557_zsphaf.jpg

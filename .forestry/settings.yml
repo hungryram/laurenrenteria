@@ -9,7 +9,6 @@ sections:
 - type: document
   path: data/homelayout.yaml
   label: Home Layout
-  match: "**/*"
 - type: directory
   path: content
   label: Pages

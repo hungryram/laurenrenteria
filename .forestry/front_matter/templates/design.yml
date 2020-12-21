@@ -116,3 +116,5 @@ fields:
       label: Image
     label: Featured Three
   label: Featured Blocks
+pages:
+- data/homelayout.yaml
