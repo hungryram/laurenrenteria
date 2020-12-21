@@ -1,6 +1,8 @@
 +++
-collections = []
-price = ""
+collections = ["Masks"]
+percentage_off = 20
+photos = ["/uploads/img_2349_590x.jpg", "/uploads/img_2347_590x.jpg", "/uploads/img_2346_590x.jpg"]
+price = "20.00"
 sku = "01"
 title = "Lipstick Kiss Cotton Face Mask"
 
