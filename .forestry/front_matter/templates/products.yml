@@ -13,11 +13,14 @@ fields:
     required: false
   label: SKU
 - name: price
-  type: text
-  config:
-    required: false
+  type: number
   label: Price
-  description: Enter without dollar sign
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: percentage_off
   type: number
   label: Percentage Off
