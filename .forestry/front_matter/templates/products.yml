@@ -18,9 +18,23 @@ fields:
     required: false
   label: Price
   description: Enter without dollar sign
+- name: percentage_off
+  type: number
+  label: Percentage Off
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  description: Mark your item on sale by adding percentage off
 - name: collections
   type: tag_list
   default: []
   label: Collections
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
 pages:
 - content/shop/lipstick-kiss-cotton-face-mask.md
