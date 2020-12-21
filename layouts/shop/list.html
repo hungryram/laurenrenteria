@@ -1,4 +1,15 @@
 {{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column content">
+                <h1 class="title is-3">{{ .Title }}</h1>
+                {{ .Params.body | markdownify }}
+                <hr style="width: 200px;background: #f5a8cd">
+            </div>
+        </div>
+    </div>
+</div>
     <div class="section">
         <div class="container">
             <div class="columns is-multiline">
