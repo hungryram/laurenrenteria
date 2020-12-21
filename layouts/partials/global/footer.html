@@ -21,5 +21,21 @@
 <script src="{{ "js/search.js" | absURL }}"></script>
 <script async src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
 <div id="snipcart" data-config-modal-style="side" data-api-key="OGFhMjIxMDAtMWIxZS00ODkyLWEyMDUtZmY3Nzg1ZTk4OTM4NjM3NDQxMDk3NDgzNDMxMTYx" hidden></div>
+<script>
+    window.onload = function() {
+      lax.setup() // init
+    
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
+    
+      window.requestAnimationFrame(updateLax)
+
+      lax.setup({
+        breakpoints: { small: 0, large: 992 }
+    })
+    }
+  </script>
 </body>
 </html>

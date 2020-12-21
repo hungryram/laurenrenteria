@@ -144,6 +144,19 @@ div.line {
     top: 50px;
 }
 
+/* INTRODUCTION */
+
+div.intro-bg {
+    background: #f8cfe3;
+    z-index: -1;
+    width: 400px;
+    height: 390px;
+    position: absolute;
+    top: 60px;
+    right: 90px;
+}
+
+
 /* PRODUCTS */
 
 p.marker {

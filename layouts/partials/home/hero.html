@@ -1,3 +1,4 @@
+{{ $hero := $.Site.Data.homelayout.hero }}
 <section class="hero is-fullheight" style="background:url(uploads/white.jpg) no-repeat center;background-size:cover">
   {{ partial "global/navbar" . }}
     <div class="hero-body">
@@ -5,12 +6,14 @@
         <div class="columns">
           <div class="column is-three-fifths">
             <h1 class="title is-6">
-              Dancer - Choreographer - Youtuber
+              {{ $hero.subtitle }}
           </h1>
           <h1 class="title is-1 is-uppercase is-size-2-mobile"><span class="has-text-weight-light">Lauren</span> <span class="accent">Renteria</span></h1>
-          <p class="ml-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus corporis asperiores officiis accusantium consectetur a ab dignissimos facilis, non sapiente. Officia at officiis omnis iusto dolores molestias consequuntur itaque.</p>
+          <div class="ml-6">
+            <p>{{ $hero.body | markdownify }}</p>
+          </div>
           <div class="is-block mt-6">
-            <a href="" class="hero-btn">Shop The Merch</a>
+            <a href="{{ $hero.link }}" class="hero-btn">{{ $hero.link_text }}</a>
           </div>
           </div>
         </div>

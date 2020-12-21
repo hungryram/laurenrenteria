@@ -31,5 +31,5 @@ hero:
   body: Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus corporis
     asperiores officiis accusantium consectetur a ab dignissimos facilis, non sapiente.
     Officia at officiis omnis iusto dolores molestias consequuntur itaque.
-  link: ''
-  link_text: ''
+  link: '/shop'
+  link_text: 'Shop the merch'
