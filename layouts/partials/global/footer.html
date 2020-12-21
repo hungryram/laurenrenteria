@@ -19,16 +19,25 @@
                       </ul>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column">
-                    <p class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7 has-text-black">Website Developed by Hungry Ram</a></p><br>
+            <div class="level pt-6">
+                <div class="level-left">
+                    <div class="level-item">
+                        <div>
+                            <p class="is-size-7 has-text-centered-mobile">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.company_name }}  &middot; <a href="https://hungryram.com" target="_blank" class="is-size-7 has-text-black">Website Developed by Hungry Ram</a></p>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="column has-text-right-desktop">
-                    <ul>
-                        {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
-                        <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2 has-text-black">{{ .Title }}</a></li>
-                        {{ end }}
-                      </ul>
+                <div class="level-right">
+                    <div class="level-item has-text-centered-mobile">
+                        <div>
+                            <ul>
+                                {{ range where $.Site.Pages.ByWeight "Type" "legal" }}
+                                <li class="is-inline"><a href="{{ .Permalink }}" class="is-size-7 mx-2 has-text-black">{{ .Title }}</a></li>
+                                {{ end }}
+                              </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
