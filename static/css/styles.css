@@ -37,6 +37,21 @@ body p {
     font-size: 14px;
 }
 
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title,
+.content h1.title,
+.content h2.title,
+.content h3.title,
+.content h4.title
+.content h5.title
+.content h6.title {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 div.container-tight {
     max-width: 960px;
 }
@@ -51,7 +66,16 @@ a.primary-btn {
     background: #f5a8cd;
     padding: 15px 30px;
     color: white;
-    border-radius: 50px;;
+    border-radius: 50px;
+    border: 1px solid #f5a8cd;
+    transition: .3s;
+}
+
+a.primary-btn:hover {
+    border: 1px solid #f5a8cd;
+    background: transparent;
+    transition: .3s;
+    color: #f5a8cd;
 }
 
 button.primary-btn {
@@ -69,10 +93,21 @@ button.primary-btn:hover {
     color: #000;
 }
 
+form[name="Contact Form"] {
+    background: #ffe2f0;
+    padding: 20px;
+}
+
 input.input,
 textarea.textarea {
-    border-radius: 0;
+    border: 0;
 }
+
+input.input::placeholder,
+textarea.textarea::placeholder {
+    font-style: italic;
+    font-size: 16px;
+} 
 
 div.content a {
     color: #f5a8cd;
@@ -126,9 +161,6 @@ ul.categories li a {
 
 /* NAVBAR */
 
-.hero-head {
-    border-bottom: 1px solid rgb(213 213 213 / 20%);
-}
 
 a.navbar-item {
     transition: .3s;
@@ -146,6 +178,14 @@ a.navbar-item {
     width: 75%;
     bottom: 15px;
     opacity: 0;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-item::after{
+        width: 50px;
+        display: flex;
+        align-items: center;
+}
 }
   
 .navbar-item:hover::after {
@@ -301,6 +341,12 @@ div.shop-grid:hover img {
     transition: .3s;
 }
 
+div.product-slide img.product__image {
+    cursor: grab;
+}
+
+
+
 /* FOOTER */
 
 footer.footer .subtitle {
@@ -314,6 +360,7 @@ footer.footer {
 /* SNIPCART */
 
 .snipcart-modal__container.snipcart-cart-summary--edit.snipcart-cart-summary-side,
-.snipcart-modal__container.snipcart-layout--large {
+.snipcart-modal__container.snipcart-layout--large,
+.snipcart-modal__container {
     z-index: 100;
 }

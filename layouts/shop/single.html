@@ -7,7 +7,7 @@
             <div class="column is-7">
                 <div class="product-slide">
                     {{ range .Params.photos }}
-                    <img src="{{ . }}" alt="">
+                    <img src="{{ . }}" alt="{{ $.Title }}" class="product__image">
                     {{ end }}
                 </div>
             </div>
@@ -30,7 +30,8 @@
                         data-item-description="{{ .Summary }}"
                         data-item-image="{{ index .Params.photos 0 }}"
                         data-item-name="{{ .Title }}">
-                        Add to bag
+
+                   Add to bag
                     </button>
                 </div>
             </div>

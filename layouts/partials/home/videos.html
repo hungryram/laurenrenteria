@@ -6,7 +6,7 @@
                 <h1 class="subtitle is-4 moon has-text-centered pl-6">Tutorials</h1>
             </div>
         </div>
-        <div class="line"></div>
+        <div class="line lax" data-lax-preset="eager-100"></div>
         <div class="responsive-slide">
             {{ range first 4 (where $.Site.RegularPages "Type" "videos") }}
             {{ partial "templates/video-grid" . }}
