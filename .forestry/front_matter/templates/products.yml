@@ -41,6 +41,9 @@ fields:
 - name: show_size_chart
   type: boolean
   label: Show Size Chart
+- name: mark_as_new
+  type: boolean
+  label: Mark as New
 pages:
 - content/shop/lipstick-kiss-cotton-face-mask.md
 - content/shop/me-vs-everyone-else-cropped-t-shirt.md
