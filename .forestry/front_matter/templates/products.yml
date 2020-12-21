@@ -44,6 +44,15 @@ fields:
 - name: marker
   type: boolean
   label: Mark as New
+- name: variants
+  type: field_group
+  config: {}
+  fields:
+  - name: sizes
+    type: tag_list
+    default: []
+    label: Sizes
+  label: Variants
 pages:
 - content/shop/lipstick-kiss-cotton-face-mask.md
 - content/shop/me-vs-everyone-else-cropped-t-shirt.md
