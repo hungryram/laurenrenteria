@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Website
+- type: document
+  path: data/homelayout.yaml
+  label: Home Layout
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
