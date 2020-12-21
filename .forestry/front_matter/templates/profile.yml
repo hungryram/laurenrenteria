@@ -41,6 +41,11 @@ fields:
     config:
       required: false
     label: Youtube
+  - name: tiktok
+    type: text
+    config:
+      required: false
+    label: Tiktok
   label: Social Media
 - name: contact_information
   type: field_group
