@@ -24,3 +24,12 @@ featured_blocks:
     heading: Shop
     link: "/shop"
     image: https://res.cloudinary.com/hungryram19/image/upload/v1608525829/lauren-renteria/lauren-renteria/IMG-9557_zsphaf.jpg
+hero:
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1608525935/lauren-renteria/lauren-renteria/white_fqsreg.jpg
+  subtitle: Dancer - Choreographer - Youtuber
+  heading: LAUREN RENTERIA
+  body: Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus corporis
+    asperiores officiis accusantium consectetur a ab dignissimos facilis, non sapiente.
+    Officia at officiis omnis iusto dolores molestias consequuntur itaque.
+  link: ''
+  link_text: ''
