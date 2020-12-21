@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/profile.yaml
   label: Profile
-  match: "**/*"
 - type: heading
   label: Website
 - type: document
