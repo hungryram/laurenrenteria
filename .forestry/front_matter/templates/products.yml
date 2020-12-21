@@ -44,14 +44,17 @@ fields:
 - name: marker
   type: boolean
   label: Mark as New
-- name: variants
-  type: field_group
-  config: {}
-  fields:
-  - name: sizes
-    type: tag_list
-    default: []
-    label: Sizes
+- name: customOptions
+  type: blocks
+  template_types:
+  - simple-dropdown-option
+  - text-option
+  - text-block-option
+  - question-block
+  - advanced-dropdown-option
+  config:
+    min: 
+    max: 
   label: Variants
 pages:
 - content/shop/lipstick-kiss-cotton-face-mask.md
