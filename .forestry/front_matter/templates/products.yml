@@ -41,7 +41,7 @@ fields:
 - name: show_size_chart
   type: boolean
   label: Show Size Chart
-- name: mark_as_new
+- name: marker
   type: boolean
   label: Mark as New
 pages:
