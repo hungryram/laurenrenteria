@@ -3,6 +3,10 @@
     src: url("/fonts/MoonTime-Regular.otf");
 }
 
+body {
+    overflow: hidden;
+}
+
 .title.moon {
     font-family: moon;
     font-size: 8em;
@@ -279,14 +283,28 @@ div.line {
 
 /* INTRODUCTION */
 
-div.intro-bg {
-    background: #f8cfe3;
-    z-index: -1;
-    width: 400px;
-    height: 390px;
-    position: absolute;
-    top: 60px;
-    right: 90px;
+@media screen and (min-width:1087px){
+    div.intro-bg {
+        background: #f8cfe3;
+        z-index: -1;
+        width: 400px;
+        height: 390px;
+        position: absolute;
+        top: 60px;
+        right: 90px;
+    }
+}
+
+@media screen and (max-width: 1087px) {
+    div.intro-bg {
+        background: #f8cfe3;
+        z-index: -1;
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 60px;
+        right: 35px;
+    }
 }
 
 
