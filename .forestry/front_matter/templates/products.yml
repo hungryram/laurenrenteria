@@ -22,3 +22,5 @@ fields:
   type: tag_list
   default: []
   label: Collections
+pages:
+- content/shop/lipstick-kiss-cotton-face-mask.md
