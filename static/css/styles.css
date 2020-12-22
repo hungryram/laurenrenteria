@@ -241,6 +241,21 @@ div.card {
 
 /* SHOP HOME FEATURED */
 
+div.home-shop h1.title span {
+    font-family: moon;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+div.home-shop img:hover {
+    opacity: .7;
+    transition: .3s;
+}
+
+div.home-shop img {
+    transition: .3s;
+}
+
 div.bg-color {
     background:#fff5fa;
     width: 100%;
