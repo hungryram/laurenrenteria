@@ -111,6 +111,15 @@ fields:
     config:
       required: false
     label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
   - name: links
     type: field_group_list
     fields:
@@ -134,15 +143,6 @@ fields:
       max: 
       labelField: 
     label: Links
-  - name: body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Body
   label: Welcome
 pages:
 - data/profile.yaml
