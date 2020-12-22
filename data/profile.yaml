@@ -19,3 +19,17 @@ search_engine_optimization:
   facebook:
     app_id: ''
   title_tag: Lauren Renteria - Dancer
+welcome:
+  links:
+  - heading: Shop the Merch
+    link: "/shop"
+    image: ''
+  - heading: Dance Videos
+    link: "/videos"
+    image: ''
+  - heading: Subscribe to my Youtube
+    link: ''
+    image: ''
+  profile_photo: https://res.cloudinary.com/hungryram19/image/upload/v1608525724/lauren-renteria/lauren-renteria/laurenrenteria_sqrkjl.png
+  heading: Lauren Renteria
+  body: ''
