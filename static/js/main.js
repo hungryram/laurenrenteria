@@ -34,7 +34,7 @@ $('.responsive-slide').slick({
     slidesToShow: 3,
     autoplay: true,
     arrows: false,
-    slidesToScroll: 4,
+    slidesToScroll: 3,
     pauseOnHover: true,
     responsive: [
       {
