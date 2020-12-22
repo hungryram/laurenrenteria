@@ -101,6 +101,16 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: profile_photo
+    type: file
+    config:
+      maxSize: 64
+    label: Profile Photo
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
   - name: links
     type: field_group_list
     fields:
@@ -124,6 +134,15 @@ fields:
       max: 
       labelField: 
     label: Links
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
   label: Welcome
 pages:
 - data/profile.yaml
