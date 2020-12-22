@@ -21,6 +21,9 @@ search_engine_optimization:
   title_tag: Lauren Renteria - Dancer
 welcome:
   links:
+  - heading: Visit my Website
+    link: "/"
+    image: ''
   - heading: Shop the Merch
     link: "/shop"
     image: ''
@@ -32,4 +35,5 @@ welcome:
     image: ''
   profile_photo: https://res.cloudinary.com/hungryram19/image/upload/v1608525724/lauren-renteria/lauren-renteria/laurenrenteria_sqrkjl.png
   heading: Lauren Renteria
-  body: ''
+  body: Professional choreographer based in Los Angeles. Stay updated on my latest
+    videos on Youtube to learn dances to the best music.
