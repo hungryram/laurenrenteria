@@ -9,7 +9,7 @@ sku = "002"
 title = "Me vs Everyone Else Cropped T-Shirt"
 [[customOptions]]
 name = "Size"
-options = ["S", "M", "L"]
+options = ["XS", "S", "M"]
 required = true
 template = "simple-dropdown-option"
 
