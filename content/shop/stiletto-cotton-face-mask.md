@@ -1,8 +1,10 @@
 +++
 collections = ["Masks"]
+customOptions = []
+marker = false
 photos = ["https://res.cloudinary.com/hungryram19/image/upload/v1608531998/lauren-renteria/lauren-renteria/IMG_2345_590x_liubr5.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608531997/lauren-renteria/lauren-renteria/IMG_2344_590x_bvqcji.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608531996/lauren-renteria/lauren-renteria/IMG_2343_590x_fxnn5x.jpg"]
 price = 12.99
-sale_price = 9.75
+sale_price = nil
 show_size_chart = false
 sku = "003"
 title = "Stiletto Cotton Face Mask"
