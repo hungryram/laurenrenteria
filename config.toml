@@ -1,22 +1,22 @@
-baseURL = "https://laurenrenteria.netlify.app/"
-summaryLength = 10
+baseURL = "https://www.laurenrenteria.com/"
 languageCode = "en-us"
+summaryLength = 10
 [[menu.main]]
 name = "Shop"
-weight = 5
 url = "/shop"
+weight = 5
 [[menu.main]]
 name = "Tutorials"
 url = "/categories/tutorial"
 weight = 4
 [[menu.main]]
 name = "Videos"
-weight = 3
 url = "/videos"
+weight = 3
 [[menu.main]]
 name = "Contact"
-weight = 8
 url = "/contact"
+weight = 8
 [[menu.main]]
 name = "Home"
 url = "/"
