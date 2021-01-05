@@ -9,7 +9,7 @@ sku = "004"
 title = "XOXO Ladies Bella Canvas Triblend T-Shirt"
 [[customOptions]]
 name = "Sizes"
-options = ["M", "S", "XS"]
+options = ["S", "M", "L"]
 required = true
 template = "simple-dropdown-option"
 
