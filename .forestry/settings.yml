@@ -16,6 +16,11 @@ sections:
   path: data/homelayout.yaml
   label: Home Layout
 - type: directory
+  path: content/legal
+  label: Legal
+  create: documents
+  match: "**/*"
+- type: directory
   path: content
   label: Pages
   create: all
