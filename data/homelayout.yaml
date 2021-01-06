@@ -14,7 +14,7 @@ slogan:
 featured_blocks:
   featured_one:
     heading: Videos
-    link: "/videos"
+    link: "/categories/tutorial/"
     image: https://res.cloudinary.com/hungryram19/image/upload/v1608655090/lauren-renteria/lauren-renteria/feet_ggrvwg.jpg
   featured_two:
     heading: Tutorials
