@@ -3,10 +3,17 @@ introduction:
   image: https://res.cloudinary.com/hungryram19/image/upload/v1608655075/lauren-renteria/lauren-renteria/lauren-renteria_nxduv0.png
   heading: Meet
   main_heading: Lauren
-  body: |-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem labore vel laudantium debitis voluptas dolore, eius quis repellendus libero? Quo illum modi repellendus maiores harum corporis dicta asperiores odit?
-
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quae officia delectus molestiae alias, cumque nobis error deleniti commodi voluptates explicabo accusamus animi quo eum magnam quaerat nam placeat dolorem!
+  body: "Born and raised as a Southern California girl, Lauren started dancing at
+    the age of 3 and trained professionally in all dance styles including ballet,
+    pointe, tap, jazz, lyrical, contemporary, hip-hop, jazz funk and heels. She competed
+    at an eminent level until she was 18 and after high school, made her way to the
+    LA dance industry. \n\nLauren's credits include Raven-Symone, JP Saxe, Emily Perry,
+    Take A Mic, Louise Vuitton, Nickelodeon Kids Choice Sports Awards, The Grammy's,
+    Old Navy, Sunny Delight, Carvana, and Beachbody. She aspires to build a dance
+    community on YouTube and create a channel that welcomes, not just other dancers
+    who also dream of becoming a professional, but also those who share the same passion
+    for dance as her. She is currently showcasing her choreography on her channel
+    along with all of the tutorials to each of her routines."
   link_text: Contact me
   link: "/contact"
 slogan:
