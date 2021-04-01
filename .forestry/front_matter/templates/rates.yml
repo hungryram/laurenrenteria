@@ -1,4 +1,31 @@
 ---
 label: Rates
 hide_body: true
-fields: []
+fields:
+- name: title_and_body
+  type: include
+  config: {}
+  template: title-and-body
+  label: Title and Body
+- name: packages
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: rates
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Rates
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Packages
