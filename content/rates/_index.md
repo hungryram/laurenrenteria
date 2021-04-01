@@ -2,7 +2,7 @@
 body = "Dance Private Package Rates. Available to teach master classes for schools and dance studios."
 footer_text = "Also available for masterclasses, for booking and inquiries [email ](/contact)Lauren"
 meta_description = ""
-title = "Rates"
+title = "Dance Lesson Rates"
 title_tag = ""
 [menu.main]
 weight = 5
