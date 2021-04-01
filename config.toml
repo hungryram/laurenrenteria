@@ -2,21 +2,21 @@ baseURL = "https://www.laurenrenteria.com/"
 languageCode = "en-us"
 summaryLength = 10
 [[menu.main]]
-name = "Shop"
-url = "/shop"
-weight = 5
-[[menu.main]]
-name = "Tutorials"
-url = "/categories/tutorial"
-weight = 4
+name = "Contact"
+url = "/contact"
+weight = 6
 [[menu.main]]
 name = "Videos"
 url = "/videos"
-weight = 3
+weight = 2
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 8
+name = "Shop"
+url = "/shop"
+weight = 4
+[[menu.main]]
+name = "Tutorials"
+url = "/categories/tutorial"
+weight = 3
 [[menu.main]]
 name = "Home"
 url = "/"
