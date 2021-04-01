@@ -1,7 +1,7 @@
 +++
 body = "Dance Private Package Rates"
 meta_description = ""
-title = "Rates"
+title = "Dance Lesson Rates"
 title_tag = ""
 [[packages]]
 heading = "Virtual Dance Private Packages"
