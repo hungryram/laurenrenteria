@@ -29,5 +29,14 @@ fields:
     max: 
     labelField: 
   label: Packages
+- name: footer_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Footer Text
 pages:
 - content/rates/_index.md
