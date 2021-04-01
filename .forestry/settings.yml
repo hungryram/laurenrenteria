@@ -15,6 +15,10 @@ sections:
 - type: document
   path: data/homelayout.yaml
   label: Home Layout
+- type: document
+  path: content/rates/_index.md
+  label: Rates
+  match: "**/*"
 - type: directory
   path: content/legal
   label: Legal
