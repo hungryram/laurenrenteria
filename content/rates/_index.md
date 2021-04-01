@@ -3,6 +3,8 @@ body = "Dance Private Package Rates"
 meta_description = ""
 title = "Rates"
 title_tag = ""
+[menu.main]
+weight = 5
 [[packages]]
 heading = "Virtual Dance Private Packages"
 rates = "**Single Session:** $80  \n**4 Pack:** $280 ($70 per 1 hour lesson)   \n**8 Pack:** $480 ($60 per 1 hour lesson  \n**12 Pack:** $540 ($45 per 1 hour lesson)  "
