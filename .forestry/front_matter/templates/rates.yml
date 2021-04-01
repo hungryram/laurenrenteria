@@ -29,3 +29,5 @@ fields:
     max: 
     labelField: 
   label: Packages
+pages:
+- content/rates/_index.md
