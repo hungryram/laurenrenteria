@@ -1,5 +1,5 @@
 +++
-categories = ["Jazz"]
+categories = ["Jazz", "Tutorials"]
 cover = "/uploads/vid1.JPG"
 tags = ""
 title = "How To Do A Jazz Pirouette - Outside Jazz Pirouette Tutorial For Beginners"
