@@ -31,7 +31,7 @@ welcome:
     link: "/videos"
     image: ''
   - heading: My Newest Youtube Video
-    link: https://youtu.be/GEXLQFzUzlU
+    link: https://www.youtube.com/watch?v=GEXLQFzUzlU&t=6s
     image: ''
   profile_photo: https://res.cloudinary.com/hungryram19/image/upload/v1608621757/lauren-renteria/lauren-renteria/laurenlink_leuahq.jpg
   heading: Lauren Renteria
