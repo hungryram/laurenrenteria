@@ -29,4 +29,4 @@ This crop is made of extra light-weight fabric featuring a blend of polyester an
 - Cropped length
 - Raw edge sleeve and bottom hem
 - High-low bottom hem
-- Ladies relaxed fit
+- girls relaxed fit
