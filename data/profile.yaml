@@ -24,6 +24,9 @@ welcome:
   - heading: Visit my Website
     link: "/"
     image: ''
+  - heading: My Amazon
+    link: "https://www.amazon.com/shop/laurenrenteria"
+    image: ''
   - heading: Shop the Merch
     link: "/shop"
     image: ''
