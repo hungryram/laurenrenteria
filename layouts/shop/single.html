@@ -30,6 +30,7 @@
                         data-item-description="{{ .Summary }}"
                         data-item-image="{{ index .Params.photos 0 }}"
                         data-item-name="{{ .Title }}"
+                        data-item-file-guid="{{ .Params.downloadID }}"
                         {{ with .Params.customOptions }}
                         {{- range $index, $option := . -}}
                         {{ safeHTMLAttr (partial (printf "custom-options/%s" .template) (dict "Index" (add 1 $index) "Option" $option)) }}
