@@ -1,6 +1,6 @@
 +++
 body = "Dance Private Package Rates\n\n10% off your first dance private package with me!"
-footer_text = "Also available for masterclasses for dance teams, school teams, and dance studios. Email lauren.renteria@yahoo.com for inquiries and bookings."
+footer_text = "Also available for masterclasses for dance teams, school teams, and dance studios. Email lrdanceproduction@gmail.com for inquiries and bookings."
 meta_description = ""
 title = "Dance Lesson Rates"
 title_tag = ""

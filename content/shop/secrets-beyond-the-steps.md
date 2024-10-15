@@ -13,3 +13,5 @@ downloadID = "1daf0ab6-2163-433e-a324-160d66a207f9"
 +++
 
 Learn to launch your dance career today!
+
+*Download link will be sent to your email after purchasing. Please check your spam folder.
