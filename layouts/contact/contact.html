@@ -2,14 +2,14 @@
 <div class="section">
     <div class="container">
         <div class="column is-half is-offset-one-quarter">
-            <h1 class="title is-4">Send me a message</h1>
-            <p class="mb-5">If you have any questions or comments, fill out the form below and I will get in touch with you as soon as possible!</p>
+            <h1 class="title is-2">Contact Lauren Renteria</h1>
+            <p class="mb-5">Please use this form for inquiries and bookings only.</p>
             <form name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
                 <input name="bot-field" type="hidden"/>
                 <input name="Subject" type="hidden" value="Website Contact Form"/>
                 <div class="field">
                   <p class="control is-expanded">
-                    <input class="input" type="text" placeholder="Name" name="name">
+                    <input class="input" type="text" placeholder="Name" name="name" required>
                   </p>
                 </div>
 
@@ -21,7 +21,7 @@
       
                 <div class="field">
                   <div class="control">
-                    <input class="input" type="email" placeholder="Email" name="email address">
+                    <input class="input" type="email" placeholder="Email" name="email address" required>
                   </div>
                 </div>
                 <div class="field">
