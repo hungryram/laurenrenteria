@@ -2,7 +2,7 @@
 collections = ["Shirts"]
 marker = true
 photos = ["https://res.cloudinary.com/hungryram19/image/upload/v1609826585/lauren-renteria/lauren-renteria/0N3A0656_v5a9x8.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608532041/lauren-renteria/lauren-renteria/DSC00662_590x_wh209p.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1608532041/lauren-renteria/lauren-renteria/ScreenShot2020-07-04at3.59.13PM_590x_rkds14.png", "https://res.cloudinary.com/hungryram19/image/upload/v1608532041/lauren-renteria/lauren-renteria/DSC00739_590x_a9x29o.jpg"]
-price = 19.99
+price = 14.99
 sale_price = ""
 show_size_chart = true
 sku = "004"

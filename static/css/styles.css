@@ -38,7 +38,7 @@ body {
 body p {
     line-height: 1.8;
     color: #3a3a3a;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1.title,
@@ -350,7 +350,9 @@ div.product__description.content {
 
 div.add__to__cart button {
     background: #f5a8cd;
+    font-size: 18px;
     box-shadow: none;
+    text-transform: uppercase;
     border: 1px solid #f5a8cd;
     width: 100%;
     padding: 20px;
