@@ -24,6 +24,9 @@ welcome:
   - heading: Visit my Website
     link: "/"
     image: ''
+  - heading: Buy My Ebook
+    link: "/shop/secrets-beyond-the-steps/"
+    image: ''
   - heading: My Amazon
     link: "https://www.amazon.com/shop/laurenrenteria"
     image: ''
