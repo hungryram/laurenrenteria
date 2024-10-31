@@ -18,7 +18,7 @@ featured_blocks:
     image: https://res.cloudinary.com/hungryram19/image/upload/v1608655090/lauren-renteria/lauren-renteria/feet_ggrvwg.jpg
   featured_two:
     heading: Tutorials
-    link: "/tutorials"
+    link: "/categories/tutorials"
     image: https://res.cloudinary.com/hungryram19/image/upload/v1608655096/lauren-renteria/lauren-renteria/shoes_ioedjk.jpg
   featured_three:
     heading: Shop
